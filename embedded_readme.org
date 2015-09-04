@@ -1,0 +1,38 @@
+* Installation of platform-io
+
+-  Install virtual env into an =env= directory
+
+   -  [[https://virtualenv.pypa.io/en/latest/userguide.html][link]]
+
+-  Install platform io
+
+   -  [[http://docs.platformio.org/en/latest/installation.html#python-package-manager][link]]
+
+* Initialize a project
+
+-  activate virtual env (=env/bin/activate=)
+
+   -  [[https://virtualenv.pypa.io/en/latest/userguide.html#activate-script][link]]
+
+-  optionally find the board with =platformio boards=
+
+   -  [[http://docs.platformio.org/en/latest/quickstart.html#quickstart][link]]
+
+-  Create and cd into the project directory
+
+-  Initialize a new PlatformIO based project via =platformio init= command with
+   the pre-configured environments for your boards:
+
+   -  [[http://docs.platformio.org/en/latest/userguide/cmd_init.html#cmd-init][link]]
+
+-  Copy all .c/.h sources into the =src= directory
+
+* Running
+
+-  =cd project-directory= and =platformio run=
+
+* Links to platform packages and frameworks
+
+** [[http://docs.platformio.org/en/latest/platforms/ststm32.html][STM32]]
+
+** Arduino
